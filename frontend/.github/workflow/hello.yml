@@ -1,0 +1,8 @@
+name: windows greeter
+on:[push]
+jobs:
+  greet:
+    runs-on: windows-latest
+    steps:
+      - name: Say hello
+        run: echo Hello, world!
